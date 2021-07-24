@@ -31,7 +31,7 @@ const BoardContent = (props) => {
   ));
 
   return (
-    <View >
+    <View style={[styles.bgWhite]} >
       <View style={[styles.navBar, styles.borderPrimary, styles.pv4]}>
         <View style={[styles.containerCenter]}>
           <TouchableHighlight onPress={onChangeAll}>

@@ -30,6 +30,21 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center'
   },
+  bgWhite: {
+    backgroundColor: '#fff'
+  },
+  ViewDropDown: {
+    backgroundColor: '#f0f0f2',
+    borderWidth: 1,
+    borderColor: 'gray',
+    height: 58,
+    marginTop: 6,
+    paddingHorizontal: 14,
+    alignItems: 'center',
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'center'
+  },
   textSize16: {
     fontSize: 16
   },
@@ -84,7 +99,7 @@ const styles = StyleSheet.create({
     color: '#7f8083'
   },
   roundButton: {
-    width: 380,
+    width: 410,
     height: 54,
     justifyContent: 'center',
     alignItems: 'center',
